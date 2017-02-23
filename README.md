@@ -1,4 +1,4 @@
-# Artificial potential fields based directionalized sampling for RRT* 
+# Artificial potential fields based directionalized sampling heuristic
 
 The code by Sertac Karaman (https://svn.csail.mit.edu/rrtstar) has been modified and adapted for the implementation of P-RRT* [1].
 
