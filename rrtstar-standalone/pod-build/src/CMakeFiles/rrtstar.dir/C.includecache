@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ahmed/r/rrtstar-standalone/src/kdtree.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+kdtree.h
+/home/ahmed/r/rrtstar-standalone/src/kdtree.h
+malloc.h
+-
+pthread.h
+-
+
+/home/ahmed/r/rrtstar-standalone/src/kdtree.h
+

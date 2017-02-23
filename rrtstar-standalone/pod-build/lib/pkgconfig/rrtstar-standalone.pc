@@ -1,0 +1,11 @@
+prefix=/home/ahmed/r/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: rrtstar-standalone
+Description: rrtstar-standalone
+Requires: 
+Version: 0.0.1
+Libs: -L${exec_prefix}/lib  -lrrtstar-standalone
+Cflags: 

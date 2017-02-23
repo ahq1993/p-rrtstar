@@ -1,0 +1,30 @@
+To install with libbot2:
+
+1. Check out libbot2 from 
+https://svn.csail.mit.edu/libbot2/
+
+2. Make sure all dependencies of libbot2 (e.g., lcm) are installed.
+
+3. Install libbot2 with the local installation procedure.
+
+4. Run "make" in the folder where this README file is located.
+
+
+
+
+To install standalone rrtstar:
+
+1. Run "make -C ./rrtstar-standalone"  
+
+
+
+
+To generate the rrtstar documentation:
+
+1. Make sure doxygen is installed.
+
+2. Go into ./rrtstar
+
+3. Run "doxygen ./doxy/doxy.conf"
+
+4. Find the documentation in ./rrtstar/doc/
